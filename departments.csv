@@ -1,0 +1,11 @@
+department_id,dept_name,dept_code,floor_no,total_beds
+1,General Medicine,GM,1,20
+2,Cardiology,CAR,2,15
+3,Orthopedics,ORT,3,12
+4,Gynecology,GYN,2,10
+5,Pediatrics,PED,1,18
+6,Dermatology,DER,4,8
+7,ENT,ENT,4,6
+8,Ophthalmology,OPH,3,6
+9,Neurology,NEU,5,10
+10,Endocrinology,END,5,8

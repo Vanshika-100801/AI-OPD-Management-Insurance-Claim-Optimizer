@@ -1,0 +1,16 @@
+doctor_id,doctor_name,specialization,department_id,qualification,experience_yrs,availability
+1,Dr. Rajesh Sharma,General Physician,1,"MBBS, MD",12,Mon-Sat
+2,Dr. Priya Nair,General Physician,1,MBBS,6,Mon-Sat
+3,Dr. Amit Kulkarni,Cardiologist,2,"MBBS, DM Cardio",18,Mon-Sat
+4,Dr. Sunita Mehta,Cardiologist,2,"MBBS, MD, DM",14,Mon-Sat
+5,Dr. Vikram Singh,Orthopedic Surgeon,3,"MBBS, MS Ortho",10,Mon-Sat
+6,Dr. Rekha Pillai,Orthopedic Surgeon,3,"MBBS, DNB",8,Mon-Sat
+7,Dr. Anita Desai,Gynecologist,4,"MBBS, MS OBG",15,Mon-Sat
+8,Dr. Kavitha Rajan,Gynecologist,4,"MBBS, DGO",9,Mon-Sat
+9,Dr. Suresh Babu,Pediatrician,5,"MBBS, DCH, MD",11,Mon-Sat
+10,Dr. Meena Krishnan,Pediatrician,5,"MBBS, MD Peds",7,Mon-Sat
+11,Dr. Arjun Verma,Dermatologist,6,"MBBS, DVD",5,Mon-Sat
+12,Dr. Pooja Agarwal,ENT Specialist,7,"MBBS, MS ENT",13,Mon-Sat
+13,Dr. Ravi Menon,Ophthalmologist,8,"MBBS, MS Ophth",16,Mon-Sat
+14,Dr. Nisha Tiwari,Neurologist,9,"MBBS, DM Neuro",20,Mon-Sat
+15,Dr. Gopal Rao,Endocrinologist,10,"MBBS, DM Endo",11,Mon-Sat

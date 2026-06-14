@@ -1,0 +1,11 @@
+insurer_id,insurer_name,insurer_type,avg_approval_days,rejection_rate_pct
+1,CGHS,Government,5,8.2
+2,ESIC,Government,7,11.5
+3,Star Health,Private,10,18.3
+4,HDFC ERGO,Private,12,15.7
+5,New India Assurance,Government,8,13.1
+6,Bajaj Allianz,Private,14,20.4
+7,Aditya Birla Health,Corporate,9,10.8
+8,ICICI Lombard,Private,11,16.9
+9,United India,Government,6,9.3
+10,Religare Health,Corporate,8,12.6

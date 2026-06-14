@@ -1,0 +1,141 @@
+{
+  "run_date": "2026-03-31",
+  "database": "opd_database.db",
+  "validations": [
+    {
+      "check": "Patients with null name",
+      "status": "PASS",
+      "issues": 0
+    },
+    {
+      "check": "Appointments with null date",
+      "status": "PASS",
+      "issues": 0
+    },
+    {
+      "check": "Billing with null total",
+      "status": "PASS",
+      "issues": 0
+    },
+    {
+      "check": "Claims with null claim_amount",
+      "status": "PASS",
+      "issues": 0
+    },
+    {
+      "check": "Appointments \u2192 invalid patient_id",
+      "status": "PASS",
+      "issues": 0
+    },
+    {
+      "check": "Billing \u2192 invalid appointment_id",
+      "status": "PASS",
+      "issues": 0
+    },
+    {
+      "check": "Claims \u2192 invalid bill_id",
+      "status": "PASS",
+      "issues": 0
+    },
+    {
+      "check": "Claims \u2192 invalid insurer_id",
+      "status": "PASS",
+      "issues": 0
+    },
+    {
+      "check": "Billing where patient_payable > total_amount",
+      "status": "PASS",
+      "issues": 0
+    },
+    {
+      "check": "Approved claims with zero approved_amount",
+      "status": "PASS",
+      "issues": 0
+    },
+    {
+      "check": "Negative processing days",
+      "status": "PASS",
+      "issues": 0
+    },
+    {
+      "check": "Completed appointments with null wait_time",
+      "status": "PASS",
+      "issues": 0
+    },
+    {
+      "check": "Future appointment dates",
+      "status": "PASS",
+      "issues": 0
+    }
+  ],
+  "kpis": {
+    "gender_distribution": {
+      "Female": 253,
+      "Male": 239,
+      "Other": 8
+    },
+    "age_groups": {
+      "Child (0-17)": 80,
+      "Middle Age (40-59)": 126,
+      "Senior (60+)": 163,
+      "Young Adult (18-39)": 131
+    },
+    "opd": {
+      "total_appts": 2000,
+      "completed": 1450,
+      "no_shows": 246,
+      "cancelled": 208,
+      "avg_wait_mins": 47.3,
+      "avg_consult_mins": 17.9,
+      "no_show_pct": 12.3
+    },
+    "billing": {
+      "total_bills": 1450,
+      "total_revenue": 5041950.08,
+      "avg_bill": 3477.21,
+      "max_bill": 10166.46,
+      "total_insured": 3551161.61,
+      "insured_pct": 70.4,
+      "pending_payments": 240
+    },
+    "claims": {
+      "total_claims": 1244,
+      "approved": 744,
+      "rejected": 188,
+      "pending": 195,
+      "under_review": 117,
+      "rejection_rate": 15.11,
+      "avg_approval_days": 12.3,
+      "total_claimed": 3060240.98,
+      "total_approved": 1554833.91
+    },
+    "top_rejection_reasons": [
+      {
+        "rejection_code": "R008",
+        "rejection_reason": "Non-empanelled hospital/doctor",
+        "cnt": 29
+      },
+      {
+        "rejection_code": "R003",
+        "rejection_reason": "Pre-existing condition exclusion",
+        "cnt": 21
+      },
+      {
+        "rejection_code": "R005",
+        "rejection_reason": "Duplicate claim",
+        "cnt": 20
+      },
+      {
+        "rejection_code": "R006",
+        "rejection_reason": "Exceeds policy limit",
+        "cnt": 19
+      },
+      {
+        "rejection_code": "R001",
+        "rejection_reason": "Policy lapsed / not active",
+        "cnt": 19
+      }
+    ]
+  },
+  "anomalies": []
+}
